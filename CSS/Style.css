@@ -1,0 +1,40 @@
+*,
+::after,
+::before{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+    
+}
+body{
+  
+    background-color: aqua;
+    text-align: center;
+    color: beige;
+    display: grid;
+    
+    border: 2px;
+
+}
+form{
+    border: 2px black;
+}
+input{
+    width: 80px;
+    height: 65px;
+    font-size: 30px;
+    font-style: oblique;
+    border-radius: 12%;
+
+
+}
+#space{
+    width: 10.3rem;
+}
+#calc{
+    width: 26rem;
+    height: 65px;
+    background-color: rgb(22, 230, 53);
+}
+
+
