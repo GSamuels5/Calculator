@@ -17,6 +17,7 @@ body{
 
 }
 form{
+    margin-top: 50px;
     border: 2px black;
 }
 input{
