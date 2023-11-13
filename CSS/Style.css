@@ -7,40 +7,55 @@
     
 }
 body{
-  
-    background-color: aqua;
-    text-align: center;
-    color: beige;
-    display: grid;
+font-family: 'Varela Round', sans-serif; 
+font-weight: bold;
+background-color: aqua;
+}
     
-    border: 2px;
 
-}
-.calculator{
-    margin-top: 50px;
-    border: 2px black;
-}
-.display{
-    width: 80px;
-    height: 65px;
-    font-size: 30px;
-    font-style: oblique;
+ .calculator{
+    display: grid;
+    justify-content: center;
+    align-content: center;
+    min-height: 100vh;
+    grid-template-columns: repeat(4, 100px);
+    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
     border-radius: 12%;
 
 
+
 }
-#space{
-    width: 10.3rem;
-}
-#calc{
-    width: 26rem;
-    height: 65px;
-    background-color: rgb(22, 230, 53);
-}
-.btn{
-cursor: pointer;
+.calculator button{
+    cursor: pointer;
+    font-size: 35px;
+    border: black solid;
+    box-shadow: green;
+    border-radius: 10%;
+    background-color: rgba(128, 128, 128, 0.816);
+    
+    
 }
 
-.btn:hover {
+.space{
+    grid-column: span 2;
+}
+.display{
+    grid-column: 1 / -1;
+    background-color: yellow;
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-around;
+    flex-direction: column;
+    padding: 13px;
+    border-radius: 10%;
+}
+.display .top-output{
+    font-size: 30px;
+}
+.display .final-output{
+    font-size: 50px;
+}
+#btn:hover {
     background-color: green;
 }
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab&family=Roboto:wght@100&family=Varela+Round&display=swap');
