@@ -16,11 +16,11 @@ body{
     border: 2px;
 
 }
-form{
+.calculator{
     margin-top: 50px;
     border: 2px black;
 }
-input{
+.display{
     width: 80px;
     height: 65px;
     font-size: 30px;
