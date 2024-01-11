@@ -19,7 +19,7 @@ background-color: aqua;
     align-content: center;
     min-height: 100vh;
     grid-template-columns: repeat(4, 100px);
-    grid-template-rows: minmax(120px, auto) repeat(5, 100px);
+    grid-template-rows: minmax(100px, auto) repeat(5, 90px);
     border-radius: 12%;
 
 
@@ -46,7 +46,7 @@ background-color: aqua;
     align-items: flex-end;
     justify-content: space-around;
     flex-direction: column;
-    padding: 13px;
+    padding: 10px;
     border-radius: 10%;
 }
 .display .top-output{
